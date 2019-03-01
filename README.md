@@ -1,5 +1,5 @@
 # go-fips
-FIPS 140-2-compliant Go images based on Alpine!.
+FIPS 140-2-compliant Go images based on Alpine.
 
 1. Google has a component that is called boringcrypto (which is e.g. used as crypto component for boringssl,
 a fork of openssl which is used in e.g. Chrome).
