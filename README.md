@@ -19,5 +19,5 @@ a fork of openssl which is used in e.g. Chrome).
 
 ## Build image
 ```bash
-./build.sh
+./build_image.sh
 ```
