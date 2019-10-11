@@ -16,6 +16,7 @@ a fork of openssl which is used in e.g. Chrome).
 
 ## Requirements
 - Git
+- Docker
 
 ## Build image
 ```bash
