@@ -1,5 +1,5 @@
 # go-fips
-FIPS 140-2-compliant Go images based on Alpine.
+FIPS 140-2-compliant Golang images based on Alpine.
 
 1. Google has a component that is called boringcrypto (which is e.g. used as crypto component for boringssl,
 a fork of openssl which is used in e.g. Chrome).
@@ -13,12 +13,3 @@ a fork of openssl which is used in e.g. Chrome).
   - Readme of golang with boringcrypto: https://go.googlesource.com/go/+/dev.boringcrypto/README.boringcrypto.md
   - Although a golang distribution can be created which uses FIPS 140-2 certified boringcrypto no one has certified a golang
   distribution separately.
-
-## Requirements
-- Git
-- Docker
-
-## Build image
-```bash
-./build_image.sh
-```
