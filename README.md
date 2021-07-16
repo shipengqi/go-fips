@@ -2,6 +2,7 @@
 FIPS 140-2-compliant Golang images based on Alpine.
 
 > **This repo is deprecated, please use [goboring/golang](https://hub.docker.com/r/goboring/golang) instead**. 
+> https://github.com/golang/go/tree/dev.boringcrypto.go1.16/misc/boring
 
 1. Google has a component that is called boringcrypto (which is e.g. used as crypto component for boringssl,
 a fork of openssl which is used in e.g. Chrome).
